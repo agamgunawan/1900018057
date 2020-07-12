@@ -1,0 +1,145 @@
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	font-family: "Arial";
+}
+
+header{
+	width: 900px;
+	height: 300px;
+	margin-top: 50px;
+}
+
+.menu{
+	width: 900px;
+	height: 50px;
+	background-color: #F1A1A8;
+}
+
+.menu ul li{
+	display: inline-block;
+	padding: 16px;
+	box-sizing: border-box;
+	color: #fff;
+}
+
+.menu ul li:hover{
+	background-color: #ff9999;
+	transition: 0.5s;
+	height: 50px;
+	text-decoration: underline;
+}
+
+.konten{
+	width: 900px;
+	height: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 5px dotted #F1A1A8;
+	box-sizing: border-box;
+}
+
+table{
+	width: 98%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+table tr th{
+	border: 1px solid #F1A1A8;
+	text-align: center;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: #F1A1A8;
+	color: white;
+}
+
+table tr td{
+	border-left: 1px solid #F1A1A8;
+	border-right: 1px solid #F1A1A8;
+	text-align: center;
+}
+
+table .kosong{
+	height: 50px;
+	color: #F1A1A8;
+	font-size: 18px;
+}
+
+.judul{
+	width: 90%;
+	text-align: center;
+	color: #F1A1A8;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid #F1A1A8;
+}
+
+.judul{
+	text-transform: uppercase;
+}
+
+form{
+	width: 90%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+label{
+	font-size: 14px;
+	font-weight: bolder;
+	color: #F1A1A8;
+}
+
+input{
+	width: 99%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	height: 40px;
+	border: 2px solid #F1A1A8;
+	color: #F1A1A8;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+select, option{
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	height: 40px;
+	border: 2px solid #F1A1A8;
+	color: #F1A1A8;
+	font-weight: bolder;
+	font-size: 15px;
+}
+
+button{
+	width: 100%;
+	height: 50px;
+	background-color: #F1A1A8;
+	border: none;
+	margin-top: 10px;
+	font-weight: bolder;
+	color: #fff;
+	box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+button:hover{
+	background-color: #ff9999;
+	transition: 0.5s;
+}
+
+footer{
+	width: 900px;
+	height: 50px;
+	background-color: #F1A1A8;
+	margin-bottom: 50px;
+	text-align: center;
+	padding: 13px;
+	box-sizing: border-box;
+}
+
+footer h3{
+	color: #fff;
+	font-weight: normal;
+}
